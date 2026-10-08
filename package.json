@@ -1,0 +1,29 @@
+{
+  "name": "secure-company-data-analyst-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "sandbox": "tsx src/examples/01-sandbox.ts",
+    "agent": "tsx src/examples/02-agent-analysis.ts",
+    "guardrails": "tsx src/examples/03-guardrails.ts",
+    "tenants": "tsx src/examples/04-multi-tenant.ts",
+    "run": "tsx src/examples/05-full-run.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/sandbox-vercel": "^1.0.144",
+    "ai": "^7.0.133",
+    "dotenv": "^17.2.3",
+    "ollama-ai-provider-v2": "^4.0.1",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

@@ -11,7 +11,7 @@
     "agent": "tsx src/examples/02-agent-analysis.ts",
     "guardrails": "tsx src/examples/03-guardrails.ts",
     "tenants": "tsx src/examples/04-multi-tenant.ts",
-    "run": "tsx src/examples/05-full-run.ts",
+    "full": "tsx src/examples/05-full-run.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
